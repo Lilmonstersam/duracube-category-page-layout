@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; }
+  a { color: inherit; text-decoration: none; }
+  a:hover { color: #27AAE1; }
+</style>
+</helmet>
+<footer style="background: {{ footerBg }}; color: #FFFFFF; font-family: Roboto, Arial, sans-serif; padding: 72px 80px 0 80px; box-sizing: border-box; width: 100%;">
+  <div style="max-width: 1280px; margin: 0 auto;">
+    <div style="display: grid; grid-template-columns: 1.7fr 1fr 1fr 1.1fr 1fr; gap: 48px; padding-bottom: 56px;">
+      <div style="display: flex; flex-direction: column; gap: 20px; padding-right: 32px;">
+        <img src="assets/logo-white.png" alt="DuraCube" style="width: 190px; height: auto; align-self: flex-start;">
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.85); max-width: 300px;">Let&rsquo;s open the door to your next big success. Reach out today and we&rsquo;ll make it happen.</p>
+        <div style="display: flex; flex-direction: column; gap: 0; max-width: 320px;">
+          <a href="#" style="display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 12px 0; border-top: 1px solid rgba(255,255,255,0.25); font-size: 15px;" style-hover="color: #27AAE1;"><span style="color: rgba(255,255,255,0.6); font-size: 13px;">Call Today</span><span style="font-weight: 600; letter-spacing: 0.02em;">1300 387 228</span></a>
+          <a href="#" style="display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 12px 0; border-top: 1px solid rgba(255,255,255,0.25); border-bottom: 1px solid rgba(255,255,255,0.25); font-size: 15px;" style-hover="color: #27AAE1;"><span style="color: rgba(255,255,255,0.6); font-size: 13px;">Say Hello</span><span style="font-weight: 600;">sales@duracube.com.au</span></a>
+        </div>
+        <div style="display: flex; gap: 12px; margin-top: 4px;">
+          <a href="#" aria-label="Instagram" style="width: 36px; height: 36px; border: 1.5px solid rgba(255,255,255,0.5); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: Inter, sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.02em;" style-hover="border-color: #27AAE1; color: #27AAE1;">ig</a>
+          <a href="#" aria-label="LinkedIn" style="width: 36px; height: 36px; border: 1.5px solid rgba(255,255,255,0.5); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: Inter, sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.02em;" style-hover="border-color: #27AAE1; color: #27AAE1;">in</a>
+          <a href="#" aria-label="YouTube" style="width: 36px; height: 36px; border: 1.5px solid rgba(255,255,255,0.5); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: Inter, sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.02em;" style-hover="border-color: #27AAE1; color: #27AAE1;">yt</a>
+          <a href="#" aria-label="Facebook" style="width: 36px; height: 36px; border: 1.5px solid rgba(255,255,255,0.5); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: Inter, sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.02em;" style-hover="border-color: #27AAE1; color: #27AAE1;">fb</a>
+        </div>
+      </div>
+      <nav style="display: flex; flex-direction: column; gap: 14px;">
+        <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; padding-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.3);">Products</h3>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Toilet Partitions</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Lockers</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Bench Seating</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Privacy Panels</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Vanities</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Compact Laminate</a>
+      </nav>
+      <nav style="display: flex; flex-direction: column; gap: 14px;">
+        <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; padding-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.3);">Industries</h3>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Education</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Commercial</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Industrial</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Public Amenities</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">End of Trip</a>
+      </nav>
+      <nav style="display: flex; flex-direction: column; gap: 14px;">
+        <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; padding-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.3);">For Architects</h3>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Revit / BIM Models</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">ArchiCAD Files</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">CPD Training</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">FF&amp;E Schedule</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Architect Register</a>
+      </nav>
+      <nav style="display: flex; flex-direction: column; gap: 14px;">
+        <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; padding-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.3);">Company</h3>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">About</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Projects</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Pricing</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Colours</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">FAQs</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Contact</a>
+        <a href="#" style="font-size: 14px; color: rgba(255,255,255,0.8);">Privacy</a>
+      </nav>
+    </div>
+    <div style="border-top: 1px solid rgba(255,255,255,0.25); padding: 20px 0; display: flex; justify-content: center; align-items: center; gap: 28px; font-family: Inter, sans-serif; font-size: 14px; font-weight: 500; letter-spacing: 0.02em;">
+      <span style="display: flex; align-items: center; gap: 8px;"><span style="color: #73B01E; font-size: 15px;">&#10003;</span>15-Year Warranty</span>
+      <span style="color: rgba(255,255,255,0.4);">&middot;</span>
+      <span style="display: flex; align-items: center; gap: 8px;"><span style="color: #73B01E; font-size: 15px;">&#10003;</span>&gt;200K Installs Since 1987</span>
+      <span style="color: rgba(255,255,255,0.4);">&middot;</span>
+      <span style="display: flex; align-items: center; gap: 8px;"><span style="color: #73B01E; font-size: 15px;">&#10003;</span>Manufactured in Australia</span>
+    </div>
+    <div style="border-top: 1px solid rgba(255,255,255,0.25); padding: 18px 0 24px 0; display: flex; justify-content: space-between; gap: 32px; font-size: 11.5px; line-height: 1.6; color: rgba(255,255,255,0.55); flex-wrap: wrap;">
+      <span>NSW &mdash; 13 Pullman Place, Emu Plains NSW 2750&ensp;&middot;&ensp;QLD &mdash; Unit 3B, 400 Nudgee Road, Hendra QLD 4011 (Lic. 15241086)&ensp;&middot;&ensp;SA &mdash; 8 Selgar Avenue, Clovelly Park SA 5042 (Lic. BLD307712)&ensp;&middot;&ensp;VIC &mdash; 12 Metrolink Circuit, Campbellfield VIC 3061</span>
+      <span>&copy; 2026 DuraCube. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440},&quot;tone&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;navy&quot;,&quot;near-black&quot;],&quot;default&quot;:&quot;near-black&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Footer&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const tone = this.props.tone ?? 'navy';
+    return { footerBg: tone === 'near-black' ? '#101216' : '#24408E' };
+  }
+}
+</script>
+</body>
+</html>
